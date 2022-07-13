@@ -8,4 +8,7 @@ export class User {
   @ApiProperty()
   name: string;
 
+  @ApiProperty()
+  age?: number;
+
 }

@@ -8,7 +8,7 @@ export class User {
   @ApiProperty()
   name: string;
 
-  @ApiProperty()
+  @ApiProperty({required: false})
   age?: number;
 
 }

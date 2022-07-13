@@ -15,8 +15,13 @@ export class CreateUserDto {
 
 export class UpdateUserDto {
 
+  @ApiProperty()
   id: number;
+
+  @ApiProperty()
   name: string;
+
+  @ApiProperty({required: false})
   age?: number;
 
 }
